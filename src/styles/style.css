@@ -6755,4 +6755,26 @@ a.text-dark:hover, a.text-dark:focus {
 hr.style {
   border-top: 1px dashed #8c8b8b; }
 
+.input-group-addon {
+  width: 2.6rem; }
+
+#bodypanel {
+  background-color: #efefeb;
+  height: 100vh; }
+
+#modalpanel {
+  background-color: #f8f8f7;
+  height: 100vh; }
+
+#heading {
+  padding-left: 5%;
+  padding-bottom: 5%; }
+
+#employeespanel {
+  padding-left: 10%; }
+
+#sideparfooter {
+  position: fixed;
+  bottom: 0; }
+
 /*# sourceMappingURL=style.css.map */

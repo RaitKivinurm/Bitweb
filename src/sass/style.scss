@@ -6,9 +6,47 @@
 //---------------
 // additional
 //---------------
+
+// dark background
 .db {
   background-color:#414141;
 }
+
+// devider
 hr.style {
   border-top: 1px dashed #8c8b8b;
+}
+
+// input style
+.input-group-addon {
+  width: 2.6rem
+}
+
+// bodypanel
+#bodypanel {
+  background-color:#efefeb;
+  height:100vh;
+}
+
+// modal panel
+#modalpanel {
+  background-color:#f8f8f7;
+  height:100vh;
+}
+
+//heading
+#heading {
+  padding-left: 5%;
+  padding-bottom: 5%
+}
+
+//employees panel
+#employeespanel {
+  padding-left: 10%
+}
+
+//sidebar footer
+#sideparfooter{
+  position: fixed;
+  bottom: 0;
 }

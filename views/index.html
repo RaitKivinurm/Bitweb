@@ -29,7 +29,7 @@
 
 </nav>
 <div class="row">
-    <div class="col-2" style="background-color:#efefeb; height:100vh;">
+    <div class="col-2" id="bodypanel">
         <nav class="col-1 col-1 hidden-xs-down bg-faded sidebar">
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
@@ -52,7 +52,7 @@
                 </li>
             </ul>
 
-            <div class="footer d-flex justify-content-center" style="position: fixed; bottom: 0;">
+            <div class="footer d-flex justify-content-center" id="sideparfooter">
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn active">
                         <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
@@ -65,10 +65,10 @@
         </nav>
     </div>
 
-    <div class="col-9" style="background-color:#f8f8f7; height:100vh;">
-        <div><p class="h2" id="heading" style="padding-left: 5%; padding-bottom: 5%">Manage Employees</p></div>
+    <div class="col-9" id="modalpanel">
+        <div><p class="h2" id="heading">Manage Employees</p></div>
 
-        <div class="col-10" style="padding-left: 10%">
+        <div class="col-10" id="employeespanel">
             <table class="table table-hover" id="employees">
                 <thead>
                 <tr>
@@ -159,7 +159,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-user"></i></div>
                                                 <input type="text" name="name" class="form-control" id="name"
                                                        placeholder="John Doe" required autofocus>
@@ -180,7 +180,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fas fa-address-card"></i></div>
                                                 <input type="text" name="name" class="form-control" id="idcode"
                                                        placeholder="3111111112" required autofocus>
@@ -201,7 +201,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fab fa-fly"></i></i></div>
                                                 <input type="range" min="10" max="111" value="50" class="slider"
                                                        id="age"><br/>
@@ -232,7 +232,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-road"></i></div>
                                                 <input type="text" name="text" class="form-control" id="adresscity"
                                                        placeholder="Tartu" required autofocus>
@@ -252,7 +252,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-road"></i></div>
                                                 <input type="text" name="text" class="form-control" id="adress"
                                                        placeholder="Riia mnt. 7-3" required autofocus>
@@ -273,7 +273,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-at"></i></div>
                                                 <input type="text" name="email" class="form-control" id="email"
                                                        placeholder="you@example.com" required autofocus>
@@ -295,7 +295,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-people-carry"></i></div>
                                                 <input type="text" name="text" class="form-control" id="dipartment"
                                                        placeholder="IT" required autofocus>
@@ -316,7 +316,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-people-carry"></i></div>
                                                 <input type="number" name="text" class="form-control" id="workinghours"
                                                        placeholder="160" required autofocus>
@@ -337,7 +337,7 @@
                                     <div class="col-md-7">
                                         <div class="form-group">
                                             <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                <div class="input-group-addon" style="width: 2.6rem"><i
+                                                <div class="input-group-addon"><i
                                                         class="fa fa-money-bill"></i></div>
                                                 <input type="number" name="text" class="form-control" id="salary"
                                                        placeholder="1500" required autofocus>
