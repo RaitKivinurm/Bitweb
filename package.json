@@ -1,0 +1,24 @@
+{
+  "name": "bitweb",
+  "version": "1.0.0",
+  "description": "BitWeb infos�steem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raitkivinurm@bitbucket.org/raitkivinurm/bitweb.git"
+  },
+  "keywords": [
+    "bitweb",
+    "information_system"
+  ],
+  "author": "Rait Kivinurm",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/raitkivinurm/bitweb#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3"
+  }
+}
