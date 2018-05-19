@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://raitkivinurm@bitbucket.org/raitkivinurm/bitweb.git"
+    "url": "git+https://github.com/RaitKivinurm/Bitweb.git"
   },
   "keywords": [
     "bitweb",
@@ -16,7 +16,7 @@
   ],
   "author": "Rait Kivinurm",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/raitkivinurm/bitweb#readme",
+  "homepage": "https://github.com/RaitKivinurm/Bitweb/",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "express": "^4.16.3"
